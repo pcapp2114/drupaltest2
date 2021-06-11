@@ -1,0 +1,36 @@
+bootstrapsub.screen-xxs-min:
+  label: screen-xxs-min
+  mediaQuery: 'all and (max-width: 320px)'
+  weight: 6
+  multipliers:
+    - 1x
+bootstrapsub.screen-xs-max:
+  label: screen-xs-max
+  mediaQuery: 'all and (min-width: 321px) and (max-width: 480px)'
+  weight: 5
+  multipliers:
+    - 1x
+bootstrapsub.screen-s-min:
+  label: screen-s-min
+  mediaQuery: 'all and (min-width: 481px) and (max-width: 767px)'
+  weight: 4
+  multipliers:
+    - 1x
+bootstrapsub.screen-sm-max:
+  label: screen-sm-max
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 992px)'
+  weight: 3
+  multipliers:
+    - 1x
+bootstrapsub.screen-md-min:
+  label: screen-md-min
+  mediaQuery: 'all and (min-width: 993px) and (max-width: 1200px)'
+  weight: 2
+  multipliers:
+    - 1x
+bootstrapsub.screen-lg-max:
+  label: screen-lg-max
+  mediaQuery: 'all and (min-width: 1201px)'
+  weight: 1
+  multipliers:
+    - 1x

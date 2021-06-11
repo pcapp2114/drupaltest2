@@ -1,0 +1,18 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Fontawesome library scss folder
+@import "fontawesome/fontawesome";
+@import "fontawesome/brands";
+@import "fontawesome/regular";
+@import "fontawesome/solid";
+
+// Base-theme overrides.
+@import 'overrides';
+
+// Custom stylesheets
+@import "custom/custom";
+

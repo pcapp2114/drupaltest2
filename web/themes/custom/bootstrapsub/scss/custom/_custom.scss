@@ -1,0 +1,54 @@
+/* Modify the class test1 */
+
+
+.test7{
+  font-size:180px;
+}
+
+@media screen and (max-width: 1350px) {
+  .test7{
+    font-size:20px;
+  }
+}
+
+.test1 {
+  font-size: 40px;
+  color: violet;
+  background-color: green;
+}
+
+p.test1 {
+  font-size: 40px;
+  color: red;
+  background-color: indigo;
+}
+
+.test2 {
+  font-size: 40px;
+  color: darkred;
+  background-color: bisque;
+}
+
+.test3 {
+  font-size: 30px;
+  color: pink;
+  background-color: blue;
+}
+
+h2.accordion-title {
+  &.ui-accordion-header {
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+  }
+  &.ui-accordion-header-active {
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+  }
+}
+
+
+// fontawseome tests
+
+

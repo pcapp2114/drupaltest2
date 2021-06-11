@@ -1,0 +1,27 @@
+{
+  "name": "preview",
+  "version": "1.0.0",
+  "description": "fda",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-if": "latest",
+    "gulp-sass": "latest",
+    "node-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fda"
+  ],
+  "author": "fda",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  }
+}

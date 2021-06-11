@@ -1,0 +1,27 @@
+<?php
+
+use Drupal\Core\Url;
+use Drupal\media\Entity\Media;
+use Drupal\lightning_media\MediaHelper;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Template\Attribute;
+use Drupal\node\Entity\Node;
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Block\BlockBase;
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+
+/**
+ * Implements hook_preprocess_HOOK() for node templates.
+ */
+function bootstrapsub_preprocess_node(array &$variables) {
+  if ($variables['node']->getType() == 'page') {
+    //echo 'only works on page content type';
+  }
+}

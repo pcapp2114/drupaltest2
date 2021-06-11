@@ -1,0 +1,8 @@
+settings[bootstrap_navbar_inverse] = '1'
+settings[bootstrap_navbar_style] = 'fixed-top'
+settings[bootstrap_cdn_provider] = ''
+
+button_size = 'large'
+button_iconize = '3'
+bootstrap_navbar_inverse = '0'
+bootstrap_navbar_style = 'fixed-bottom'
